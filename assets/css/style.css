@@ -420,10 +420,12 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 100px;
   display: block;
   background: none;
   border-radius: 0;
+  width: 500px;
+  margin: auto;
 }
 
 .skills .progress .skill {
