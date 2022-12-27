@@ -623,7 +623,7 @@ section {
     right: 0;
     width: 100px;
     height: 100px;
-    display: table;
+	display: inline-block;
     text-align: center;
     background: #f2f3f7;
     -webkit-border-radius: 2px;
