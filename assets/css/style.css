@@ -621,17 +621,18 @@ section {
 	position: relative;
     top: 0;
     right: 0;
-    width: 100px;
-    height: 100px;
 	display: inline-block;
     text-align: center;
     background: #f2f3f7;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
-    border-radius: 13px;
-    padding: 25px;
     float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 36%;
+    padding: 15px;
+    margin-right: 25px;
 }
 
 /* .portfolio-con{
