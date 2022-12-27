@@ -257,27 +257,35 @@
           <ul>
                 <li>
                 <div class="porticon"><i class='bx bx-moon' style="font-size: 40px;"></i></div><strong>오늘의 달 모양</strong>
-                한국천문연구원에서 제공하는 음양력 정보 API를 ajax를 사용하여 get 방식으로 호출한다.
-                기본 날짜는 현재 일자로 되어있으며,선택한 년,월,일 날짜로 요청하여 양력과 음력을 응답받는다.
-                음력일에 해당하는 날짜를 for문을 통해 찾고 그 날짜에 해당하는 달 모양 이미지를 출력한다.
-				달 이미지에 커서를 올리면 css에 적용한 transform:scale이 실행되어 이미지가 확대된다.
+                <div class="portfolio-con">
+                <br>한국천문연구원에서 제공하는 음양력 정보 API를 ajax를 사용하여 get 방식으로 호출한다.
+                <br>기본 날짜는 현재 일자로 되어있으며,선택한 년,월,일 날짜로 요청하여 양력과 음력을 응답받는다.
+                <br>음력일에 해당하는 날짜를 for문을 통해 찾고 그 날짜에 해당하는 달 모양 이미지를 출력한다.
+				<br>달 이미지에 커서를 올리면 css에 적용한 transform:scale이 실행되어 이미지가 확대된다.
+				</div>
                 </li>
                 
                 <li><div class="porticon"><i class='bx bx-sun' style="font-size: 40px;"></i></div><strong>날씨 정보</strong>
+                <div class="portfolio-con">
                 <br>기상청에서 제공하는 단기예보 API, 중기예보 API를 ajax를 사용하여 get 방식으로 호출한다. 
                 <br>단기예보는 전국 10개 지역의 위도, 경도를 배열에 담고 forEach문을 사용하여 날씨 아이콘(fontawesome)과 기온을 출력한다.
                 <br>중기예보는 선택한 지역의 1주일 날씨를 텍스트로 출력하고, replaceAll을 사용하여 특정 단어(비, 눈, 구름 등)가 아이콘으로 표시된다. 
+				</div>
 				</li>
 				
                 <li><div class="porticon"><i class='bx bx-star' style="font-size: 40px;"></i></div><strong>이달의 천문현상</strong>
+				<div class="portfolio-con">
 				<br>한국천문연구원에서 제공하는 천문현상 정보 API를 ajax를 사용하여 get 방식으로 호출한다. 
 				<br>현재 날짜에 해당하는 달의 천문현상이 xml 형식으로 출력되고 선택한 달의 천문현상 검색이 가능하다.
 				<br>’설명 보기‘ 버튼을 클릭해야만 천문력의 용어 설명을 볼 수 있다. ’설명 닫기‘ 버튼을 클릭하면 용어 설명이 숨겨진다.
+				</div>
 				</li>
                 <li><div class="porticon"><i class='bx bxs-user-circle' style="font-size: 40px;"></i></div><strong>소셜 로그인</strong>
+                <div class="portfolio-con">
                 <br>
                 <br>
                 <br>
+                </div>
                 </li>
               </ul>
 </div>
@@ -581,7 +589,7 @@
 
         <div class="row" ><!--data-aos="fade-in"  -->
 
-          <div class="col-lg-8 align-items-stretch" sytle="margin:0 auto;">
+          <div class="col-lg-8 align-items-stretch" sytle="">
             <div class="info">
 
               <div class="email">

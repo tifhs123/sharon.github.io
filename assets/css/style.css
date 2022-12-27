@@ -631,8 +631,12 @@ section {
     -ms-border-radius: 2px;
     border-radius: 13px;
     padding: 25px;
+    float: left;
 }
-}
+
+/* .portfolio-con{
+	float: right;
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
