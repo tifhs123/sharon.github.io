@@ -256,25 +256,25 @@
           <div class="portfolio-info">
           <ul>
                 <li>
-                <div class="porticon" style="height:100px; width:100px;"><i class='bx bx-moon' style="font-size: 40px;"></i></div><strong>오늘의 달 모양</strong>
+                <div class="porticon"><i class='bx bx-moon' style="font-size: 40px;"></i></div><strong>오늘의 달 모양</strong>
                 <br>한국천문연구원에서 제공하는 음양력 정보 API를 ajax를 사용하여 get 방식으로 호출한다.
                 <br>기본 날짜는 현재 일자로 되어있으며,선택한 년,월,일 날짜로 요청하여 양력과 음력을 응답받는다.
                 <br>음력일에 해당하는 날짜를 for문을 통해 찾고 그 날짜에 해당하는 달 모양 이미지를 출력한다.
 				<br>달 이미지에 커서를 올리면 css에 적용한 transform:scale이 실행되어 이미지가 확대된다.
                 </li>
                 
-                <li><div class="porticon"><i class='bx bx-sun' ></i></div><strong>날씨 정보</strong>
+                <li><div class="porticon"><i class='bx bx-sun' style="font-size: 40px;"></i></div><strong>날씨 정보</strong>
                 <br>기상청에서 제공하는 단기예보 API, 중기예보 API를 ajax를 사용하여 get 방식으로 호출한다. 
                 <br>단기예보는 전국 10개 지역의 위도, 경도를 배열에 담고 forEach문을 사용하여 날씨 아이콘(fontawesome)과 기온을 출력한다.
                 <br>중기예보는 선택한 지역의 1주일 날씨를 텍스트로 출력하고, replaceAll을 사용하여 특정 단어(비, 눈, 구름 등)가 아이콘으로 표시된다. 
 				</li>
 				
-                <li><div class="porticon"><i class='bx bx-star' ></i></div><strong>이달의 천문현상</strong>
+                <li><div class="porticon"><i class='bx bx-star' style="font-size: 40px;"></i></div><strong>이달의 천문현상</strong>
 				<br>한국천문연구원에서 제공하는 천문현상 정보 API를 ajax를 사용하여 get 방식으로 호출한다. 
 				<br>현재 날짜에 해당하는 달의 천문현상이 xml 형식으로 출력되고 선택한 달의 천문현상 검색이 가능하다.
 				<br>’설명 보기‘ 버튼을 클릭해야만 천문력의 용어 설명을 볼 수 있다. ’설명 닫기‘ 버튼을 클릭하면 용어 설명이 숨겨진다.
 				</li>
-                <li><div class="porticon"><i class='bx bxs-user-circle'></i></div><strong>소셜 로그인</strong>
+                <li><div class="porticon"><i class='bx bxs-user-circle' style="font-size: 40px;"></i></div><strong>소셜 로그인</strong>
                 <br>
                 <br>
                 <br>
@@ -356,24 +356,24 @@
           </div>
           <div class="portfolio-info">
           <ul>
-                <li><i class='bx bxs-user-plus'></i><strong>회원가입</strong>
+                <li><div class="porticon"><i class='bx bxs-user-plus'style="font-size: 40px;"></i></div><strong>회원가입</strong>
                 <br>회원가입 시 모든 항목을 입력해야하며 입력하지 않았을 시 “00을 입력해주세요!”라고 출력된다.
                 <br>Ajax를 이용해서 중복검사(아이디, 닉네임, 이메일)를 하고 DB에 중복데이터가 있으면 중복된 값이라는 출력된다. 
                 <br>아이디(4~12자의 영문,숫자), 비밀번호(6~12자의 영문,숫자 혼합) 유효성 검증을 하고, 해당 조건과 맞지 않으면 조건이 출력된다.
 				<br>우편번호 찾기는 Daum주소 API를 사용한다.
                 </li>
                 
-                <li><i class='bx bxs-id-card'></i><strong>회원목록</strong>
+                <li><div class="porticon"><i class='bx bxs-id-card' style="font-size: 40px;"></i></div><strong>회원목록</strong>
                 <br>DB에 저장된 전체 회원정보를 꺼내서 리스트로 출력한다.
                 <br>sql에서 ORDER BY userno로 설정하여 회원번호 순서대로 정렬된다.
                 <br>이름을 클릭하면 해당 회원의 회원번호를 가지고 와서 상세정보 페이지에서 회원정보를 출력한다.
 				</li>
 				
-                <li><i class='bx bx-search-alt'></i><strong>회원검색</strong>
+                <li><div class="porticon"><i class='bx bx-search-alt' style="font-size: 40px;"></i></div><strong>회원검색</strong>
 				<br>검색 유형(이름,성별,연락처)에 따라 키워드 검색이 가능하다.
 				<br>SELECT문에서 LIKE연산자를 이용하여 키워드 검색이 가능하고, 키워드가 포함된 회원목록이 출력된다.
 				</li>
-                <li><i class='bx bx-shopping-bag'></i><strong>장바구니</strong>
+                <li><div class="porticon"><i class='bx bx-shopping-bag' style="font-size: 40px;"></i></div><strong>장바구니</strong>
                 <br>추가:
                 <br>삭제:
                 <br>결제:Controller에서 session에 저장된 회원번호를 가지고 와서 결제페이지로 전달해서 회원번호와 일치하는 회원정보를 자동입력한다.

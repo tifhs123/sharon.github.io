@@ -618,9 +618,9 @@ section {
 }
 
 .porticon {
-    position: relative;
+	position: relative;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100px;
     height: 100px;
     display: table;
@@ -629,7 +629,9 @@ section {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
-    border-radius: 8px;
+    border-radius: 13px;
+    padding: 25px;
+}
 }
 
 /*--------------------------------------------------------------
