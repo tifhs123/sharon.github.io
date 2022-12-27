@@ -635,6 +635,7 @@ section {
     margin-right: 25px;
 }
 
+
 /* .portfolio-con{
 	float: right;
 } */
@@ -684,6 +685,13 @@ section {
   list-style: none;
   padding: 0;
   font-size: 15px;
+}
+
+.portfolio-details .portfolio-info li {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
