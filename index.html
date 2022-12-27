@@ -48,10 +48,10 @@
         <img src="assets/img/sharonimg.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">LEE SHARON</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="twitter"><i class='bx bxl-java'></i></a>
+          <a href="#" class="facebook"><i class='bx bxl-javascript' ></i></a>
+          <a href="#" class="instagram"><i class='bx bxl-spring-boot'></i></a>
+          <a href="#" class="google-plus"><i class='bx bxl-jquery'></i></a>
           <a href="https://github.com/tifhs123" class="github"><i class="bx bxl-github"></i></a>
         </div>
       </div>
@@ -351,13 +351,30 @@
             </div>
           </div>
           <div class="portfolio-info">
-<p>오늘의 달 모양:</p>
-회원관리: 회원가입, 로그인, 아이디·비밀번호 찾기, 아이디 저장(Session),
-마이페이지, 회원정보 수정·탈퇴, 회원등급 조회
-굿즈샵: 굿즈 검색, 굿즈 목록, 굿즈 상세보기, 장바구니
+          <ul>
+                <li><i class='bx bx-moon'></i><strong>회원가입</strong>
+                <br>회원가입 시 모든 항목을 입력해야하며 입력하지 않았을 시 “00을 입력해주세요!”라고 출력된다.
+                <br>Ajax를 이용해서 중복검사(아이디, 닉네임, 이메일)를 하고 DB에 중복데이터가 있으면 중복된 값이라는 출력된다. 
+                <br>아이디(4~12자의 영문,숫자), 비밀번호(6~12자의 영문,숫자 혼합) 유효성 검증을 하고, 해당 조건과 맞지 않으면 조건이 출력된다.
+				<br>우편번호 찾기는 Daum주소 API를 사용한다.
+                </li>
+                
+                <li><i class='bx bx-sun' ></i><strong>회원목록</strong>
+                <br>DB에 저장된 전체 회원정보를 꺼내서 리스트로 출력한다.
+                <br>sql에서 ORDER BY userno로 설정하여 회원번호 순서대로 정렬된다.
+				</li>
+				
+                <li><i class='bx bx-star' ></i><strong>회원검색</strong>
+				<br>검색 유형(이름,성별,연락처)에 따라 키워드 검색이 가능하다.
+				<br>SELECT문에서 LIKE연산자를 이용하여 키워드 검색이 가능하고, 키워드가 포함된 회원목록이 출력된다.
+				</li>
+                <li><i class='bx bxs-user-circle'></i><strong>장바구니</strong>
+                <br>
+                <br>
+                <br>
+                </li>
+              </ul>
 </div>
-
-        </div>
 
       </div>
     </section>
