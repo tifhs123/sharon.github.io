@@ -617,6 +617,28 @@ section {
   bottom: 0;
 }
 
+
+.porticon{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: table;
+    text-align: center;
+    background: #f2f3f7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;	
+}
+
+.bx bx-moon .bx bx-sun .bx bx-star .bx bxs-user-circle .bx bxs-user-plus .bx bxs-id-card .bx bx-search-alt .bx bx-shopping-bag{
+	font-size: 40px;
+	display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
