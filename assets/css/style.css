@@ -490,7 +490,6 @@ section {
   background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
-  font-weight: 600;
   margin-bottom: 10px;
 }
 
@@ -714,6 +713,11 @@ section {
   padding: 0;
 }
 
+.portfolio-details .section-title{
+	padding-left: 25px;
+padding-bottom: 30px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -869,7 +873,7 @@ section {
 }
 
 .contact .info {
-/*   padding: 35px 206px; */
+  padding: 77px; 
   background: #fff;
   width: 100%;
 /*   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); */
