@@ -870,10 +870,10 @@ section {
 }
 
 .contact .info {
-  padding: 30px;
+/*   padding: 35px 206px; */
   background: #fff;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+/*   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); */
 }
 
 .contact .info i {
@@ -893,7 +893,6 @@ section {
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
-  font-weight: 600;
   margin-bottom: 5px;
   color: #050d18;
 }
